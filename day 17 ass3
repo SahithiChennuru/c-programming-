@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int p;
+    printf("Enter a number: \n");
+    scanf("%d",&p);
+    if (p%2==0)
+    printf("It is not a prime number");
+    else
+    printf("It is a prime number");
+
+    return 0;
+}
